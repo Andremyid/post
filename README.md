@@ -5,7 +5,7 @@ The Andremyid Post package.
 
 * Add the following to your `Composer JSON` file
 ```
-"andremyid/page": "~0.0"
+"andremyid/post": "~0.0"
 ```
 * Run Composer
 ```
