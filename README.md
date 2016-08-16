@@ -13,7 +13,7 @@ $ composer update
 ```
 * Add the following to 'Andremyid/Framework-Core' => 'ServiceProvider'
 ```
-Andremyid\Page\PageServiceProvider
+Andremyid\Post\PostServiceProvider
 ```
 * Run the migration
 
@@ -33,8 +33,8 @@ $ php andre migrate
 ```php
 <?php
 
-use Andremyid\Page\SampleBackendPage;
-use Andremyid\Page\BackendPageTrait;
+use Andremyid\Post\SampleBackendPage;
+use Andremyid\Post\BackendPageTrait;
 
 class YourControllerBackendName extends SampleBackendPage {
 
@@ -59,8 +59,8 @@ class YourControllerBackendName extends SampleBackendPage {
 ```php
 <?php
 
-use Andremyid\Page\SampleFrontendPage;
-use Andremyid\Page\FrontendPageTrait;
+use Andremyid\Post\SampleFrontendPage;
+use Andremyid\Post\FrontendPageTrait;
 
 class YourControllerFrontendName extends SampleFrontendPage {
 
